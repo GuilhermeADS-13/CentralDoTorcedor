@@ -44,3 +44,71 @@ body{
     color:#00bcd4;
 }
 
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.container-jogos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.jogo{
+    background: #1e293b;
+    width: 320px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+}
+
+.jogo:hover{
+    transform: translateY(-10px);
+}
+
+.times{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.data{
+    font-size: 18px;
+    color: #cbd5e1;
+    line-height: 30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #020617;
+    padding: 20px 50px;
+}
+
+.logo{
+    color: #38bdf8;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #38bdf8;
+}

@@ -12,7 +12,6 @@
         <div class="login">
             <form action="testLogin.php" method="POST">
                 <h1>Login</h1>
-<<<<<<< HEAD
                 
                 <?php
                     if(isset($_GET['erro']))
@@ -21,8 +20,6 @@
                         }
                 ?>
 
-=======
->>>>>>> 20efa4f8661e937dd5d7ed2721fe7afaa0de5004
                 <input type="text" id="name" name="name" placeholder="Nome">
                 <br><br>
                 <input type="password" id="password" name="password" placeholder="Senha">
