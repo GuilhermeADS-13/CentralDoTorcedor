@@ -46,7 +46,7 @@ $ligas = [
 
 foreach($ligas as $nomeLiga => $idLiga)
 {
-    $url = "https://www.thesportsdb.com/api/v1/json/3/eventsseason.php?id=$idLiga&s=2026";
+    $url = "https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id=$idLiga&s=2026";
 
     $response = file_get_contents($url);
 
@@ -62,7 +62,7 @@ foreach($ligas as $nomeLiga => $idLiga)
 
         foreach($data['events'] as $jogo)
         {
-            if($contador >= 3)
+            if($contador >= 4)
             {
                 break;
             }
